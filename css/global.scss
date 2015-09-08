@@ -1,0 +1,14 @@
+---
+# this ensures Jekyll reads the file to be transformed into CSS later
+# only our Global file needs the front-matter, the rest are fine
+---
+
+//Pour up some Bourbon.io
+    //@import 'bourbon';
+    //@import 'neat';
+
+//Get our basic stylesheets 
+
+    @import 'main';
+    @import 'responsive';
+    @import 'syntax';

@@ -1,3 +1,20 @@
 name: Chowder
 markdown: redcarpet
 highlights: true
+
+
+### site serving configuration ###
+exclude: [CNAME, README.md, .gitignore]
+permalink: / ## disables post output
+timezone: null
+lsi: false
+markdown: kramdown
+highlighter: pygments
+
+###Add Bourbon
+gems: [bourbon, neat]
+
+###Fix Sass Directory
+sass:
+    sass_dir: _sass
+    style: compressed
