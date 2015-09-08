@@ -19,26 +19,16 @@ To use this theme, you would do so like any other Jekyll setup:
 Contributions
 ===
 
-In general, there are no strict rules for contributing, only that your code is clean and well structured.
-
-For bugs:
-- To merge a fix, you can simply open a pull request.
-- To report one that is not yet fixed, open an issue.
-
-Feature requests:
-- **Always** open an issue first before implementing and proposing a new feature. This is only so I can make sure the theme doesn't become bloated with too many features. This way, I can determine if an idea is something that makes sense for the theme's design.
-
-If in doubt, you can always ask me on Twitter: [@jeffxmn](https://twitter.com/jeffxmn)
+For the most part, contributions will not be accepted. That being said, you are _more than_ welcome to pop the hood, fork the project, and create your own version of the theme! If you do modify the base code, be sure to let me know on Twitter: [lukepatrick](http://twitter.com/lukechanning)
 
 License
 ===
 
-Flex is licensed under the MIT license:
-
+Chowder Bucket is licensed under the MIT license:
 
 The MIT License (MIT)
 
-Copyright (c) 2013-2014 Jeff Martin
+Copyright (c) 2015-2016 Luke Patrick
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
