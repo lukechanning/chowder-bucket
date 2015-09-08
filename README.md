@@ -1,11 +1,11 @@
-flex
+Chowder Bucket
 ====
 
-Flex is a responsive, flexible, [Jekyll](http://jekyllrb.com) theme.
+The base theme used for my personal blog, [RouterChowder](http://routerchowder.com).
 
-The theme is based on the website [The Development](http://thedevelopment.co).
+It is loosely built off the fantatic [Flex](https://github.com/the-development/flex) theme.
 
-View a demo website [here](http://the-development.github.io/flex/).
+All the code contained here endeavours to be as explanatory as possible. If you'd like to build off of what's here, feel free to fork and explore! All I ask is that you give a nod (or donate) where your heart desires. 
 
 Installation
 ===
@@ -14,7 +14,7 @@ To use this theme, you would do so like any other Jekyll setup:
 1. Install Jekyll: `gem install jekyll`
 2. Fork this repository to your machine
 3. `cd` to the forked directory and run `jekyll serve --watch`
-4. Celebrate and dance.
+4. Boogie on from there, Reggae Woman!
 
 Contributions
 ===
