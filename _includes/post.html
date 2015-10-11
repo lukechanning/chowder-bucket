@@ -7,8 +7,11 @@
       <img id="cover-photo" src="/images/{{ page.cover }}">
     </div>
     <div id="info-container">
-      <h1 id="title">{{ page.title }}</h1>
-      <span id="date">{{ page.date | date_to_string }}</span>
+      <div class="title-block">
+        <h1 id="title">{{ page.title }}</h1>
+        <h2 id="subtitle"><em>{{ page.subtitle }}</em></h2>
+      </div>
+      <div id="date">{{ page.date | date_to_string }}</div>
     </div>
   </div>
 
