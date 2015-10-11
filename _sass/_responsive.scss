@@ -1,7 +1,4 @@
 @media (max-width: 1309px) {
-  #cover-photo {
-    max-width: 95%;
-  }
   .header {
     padding-top: 3.45em;
   }
@@ -30,7 +27,7 @@
   .sidebar {
     padding-left: 4em;
   }
-  .content {
+  .wrapper {
     padding-right: 3em;
   }
   .footer {
@@ -58,7 +55,7 @@
     width: 35%;
     padding-left: 1.75em;
   }
-  .content {
+  .wrapper {
     z-index: 1;
     padding-right: 2em;
   }

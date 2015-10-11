@@ -15,11 +15,16 @@
 
 #cover-photo-container {
   display: block;
+  z-index: 100;
+  #cover-photo {
+    width: 100%;
+  }
 }
 
 #info-container {
   display: block;
-  margin-top: 3em;
+  margin-top: -4px;
+  z-index: 250;
 }
 
 //Let's add title block styling
