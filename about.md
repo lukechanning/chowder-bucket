@@ -2,7 +2,7 @@
 layout: page
 title: About Me
 subtitle: area web developer uses tiny computer
-cover: luke-bio.jpg
+cover: covers/luke-bio.jpg
 date:   2013-12-09 12:00:00
 categories: posts
 permalink: about/
@@ -26,5 +26,5 @@ I am currently freelancing, consulting, and / or feeding two cats — the fluffy
 ##Projects I am involved with 
 
 *   [Kangabloo Creative](http://kangabloo.com) - A small business marketing agency based in Conway, AR
-*   [Snod & Jeff](http://kangabloo.com) - A marketing agency for outdoor products and craft brewers in Boulder, CO
+*   [Snod & Jeff](http://snodandjeff.com) - A marketing agency for outdoor products and craft brewers in Boulder, CO
 

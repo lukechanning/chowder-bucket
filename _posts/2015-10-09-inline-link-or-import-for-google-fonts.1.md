@@ -2,10 +2,16 @@
 layout: post
 title: Inline Link or Import for Google Fonts?
 subtitle: A Specifically Specific Code Questions Entry
-cover: cover.jpg
+cover: covers/google-cover.jpg
 date:   2015-10-09 12:00:00
 categories: posts
 permalink: inline-link-vs-import-google-fonts/
+tags:
+- google fonts
+- web development
+- web fonts
+- google imports
+- css google fonts
 ---
 
 Today’s topic is so simple you’ve (likely) never thought about it that hard. If you’re being *Jane “Knows-it-All” Coder*, and you want to properly add Google Fonts to your current project, should you use inline HTML links, or a CSS @import? 
