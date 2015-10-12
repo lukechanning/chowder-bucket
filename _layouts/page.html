@@ -2,9 +2,7 @@
 layout: default
 ---
 <div class="content" id="home">
-      <div id="sidebar-button">
-      <img src="/images/sidebar-button.png">
-    </div>
+    {% include sidebar-button.html %}
     <div id="post-info">
       <div id="cover-photo-container">
         <img id="cover-photo" src="/images/{{ page.cover }}">
@@ -14,7 +12,6 @@ layout: default
           <h1 id="title">{{ page.title }}</h1>
           <h2 id="subtitle"><em>{{ page.subtitle }}</em></h2>
         </div>
-        <div id="date">{{ page.date | date_to_string }}</div>
       </div>
     </div>
   
