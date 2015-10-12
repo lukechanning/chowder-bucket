@@ -1,0 +1,29 @@
+<div class="sidebar" id="sidebar">
+    <div class="header">
+      <h1 class="title">
+        <a href="/">
+          <img class="decal" src="/images/decal.png">
+          <img class="logo" id="logo" src="/images/logotype.png">
+        </a>
+      </h1>
+      <span class="tagline"><a href="/about" title="About Luke Patrick and this site">Luke Patrick's</a><br> personal blog, covering<br> <em>web design</em>, <em>music</em>, & <em>life in Boulder, CO</em></span>
+    </div>
+    <div class="posts">
+      <ul class="posts-list">
+        {% for post in site.posts %}
+          <li class="post-link">
+            <a class="post-title" href="{{ post.url }}">
+              <span class="post-date">{{ post.date | date_to_string }}</span>
+              {{ post.title }}
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="footer">
+      <span id="footer-links">
+        <a target="_blank" href="https://twitter.com/LukePatrick" class="footer-link"><i class="fa fa-twitter"></i> Twitter</a> <span class="separator">&bull;</span>
+        <a target="_blank" href="https://github.com/lukechanning" class="footer-link"><i class="fa fa-github"></i> GitHub</a>
+      </span>
+    </div>
+</div>

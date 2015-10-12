@@ -25,44 +25,16 @@
       <meta name="theme-color" content="#ffffff">
      <!-- Grab the stylehseet -->
      <link rel="stylesheet" href="{{ "/css/global.css" | prepend: site.baseurl }}">
-
+      <!-- Get Fonted, Fool! -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
       <!-- Google Fonts -->
       <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700' rel='stylesheet' type='text/css'>
       <link href='http://fonts.googleapis.com/css?family=Raleway:300,400,700' rel='stylesheet' type='text/css'>
   </head>
   <body>
     <div class="site">
-      <div class="sidebar" id="sidebar">
-        <div class="header">
-          <h1 class="title">
-            <a href="/">
-              <img class="decal" src="/images/decal.png">
-              <img class="logo" id="logo" src="/images/logotype.png">
-            </a>
-          </h1>
-          <span class="tagline">Luke Patrick's<br> personal blog, covering<br> <em>web design</em>, <em>music</em>, & <em>life in Boulder, CO</em></span>
-        </div>
-        <div class="posts">
-          <ul class="posts-list">
-            {% for post in site.posts %}
-              <li class="post-link">
-                <a class="post-title" href="{{ post.url }}">
-                  <span class="post-date">{{ post.date | date_to_string }}</span>
-                  {{ post.title }}
-                </a>
-              </li>
-            {% endfor %}
-          </ul>
-        </div>
-        <div class="footer">
-          <span id="footer-links">
-            <a href="/about" class="footer-link">About</a> <span class="separator">&bull;</span>
-            <a target="_blank" href="https://twitter.com/LukePatrick" class="footer-link">Twitter</a> <span class="separator">&bull;</span>
-            <a target="_blank" href="https://github.com/lukechanning" class="footer-link">GitHub</a>
-          </span>
-        </div>
-      </div>
 
+        {% include sidebar.html %}
         {{ content }}
 
     </div>
