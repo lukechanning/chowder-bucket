@@ -6,12 +6,13 @@
           <img class="logo" id="logo" src="/images/logotype.png">
         </a>
       </h1>
-      <span class="tagline"><a href="/about" title="About Luke Patrick and this site">Luke Patrick's</a><br> personal blog, covering<br> <em>web design</em>, <em>music</em>, & <em>life in Boulder, CO</em></span>
+      <span class="tagline">by <a href="/about" title="About Luke Patrick and this site">Luke Patrick</a></span>
+      <span class="tagline">covering <em>web design</em>, <em>music</em>, & <em>life in Boulder, CO</em></span>
     </div>
     <div class="posts">
-      <ul class="posts-list">
+      <ul class="posts-list owl-carousel owl-theme">
         {% for post in site.posts %}
-          <li class="post-link">
+          <li class="post-link item">
             <a class="post-title" href="{{ post.url }}">
               <span class="post-date">{{ post.date | date_to_string }}</span>
               {{ post.title }}
