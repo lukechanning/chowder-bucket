@@ -1,4 +1,17 @@
+.sidebar, .content {
+  vertical-align: top;
+  height: 100%;
+  -webkit-overflow-scrolling: touch;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
 .sidebar {
+    float: left;
+    width: 14%;
+    padding-left: 11em;
+    padding-right: 2.125em;
+    border-right: 1px solid #e7e7e7;
     u {
         font-weight: 700;
         color: #222;
@@ -18,4 +31,15 @@
             }
         }
     }
+}
+
+#sidebar-button {
+  height: intrinsic;
+  cursor: pointer;
+  display: none;
+  padding: rem(15) rem(5) 0px rem(5);
+  border-bottom: 1px solid #e7e7e7;
+  &:active, &:hover {
+    opacity: 0.7;
+  }
 }

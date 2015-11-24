@@ -13,7 +13,7 @@
     @import 'syntax';
     @import 'home';
     @import 'sidebar';
-    @import 'site';
+    @import 'footer';
     @import 'posts';
     
 //Get the Owl
@@ -23,3 +23,4 @@
 //Get post specific stylings
     @import 'postcards';
     @import 'archive';
+    @import 'tag-cloud';

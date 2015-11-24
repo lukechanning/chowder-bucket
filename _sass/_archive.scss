@@ -2,4 +2,16 @@
     .wrapper {
         padding-left: 0;
     }
+    //Let's style up the header real nice
+    #header {
+        text-align: center;
+        padding: rem(25px) 0;
+        #subtitle {
+            margin-top: rem(10px);
+            font-weight: 500;
+        }
+        hr {
+            margin-top: rem(10px);
+        }
+    }
 }

@@ -46,25 +46,9 @@ a {
 
 /*****************************************************************************/
 /*
-/* Sidebar and Content
+/* Content
 /*
 /*****************************************************************************/
-
-.sidebar, .content {
-  vertical-align: top;
-  height: 100%;
-  -webkit-overflow-scrolling: touch;
-  overflow-y: auto;
-  overflow-x: hidden;
-}
-
-.sidebar {
-  float: left;
-  width: 14%;
-  padding-left: 11em;
-  padding-right: 2.125em;
-  border-right: 1px solid #e7e7e7;
-}
 
 .wrapper, #info-container {
   padding-left: 2.125em;
@@ -81,49 +65,14 @@ a {
   }
 }
 
-.post-link {
-  margin-bottom: 0.75em;
-}
-
-.post-title {
-  font-weight: 600;
-  font-size: 1.25em;
-  text-transform: uppercase;
-}
-
-.post-date {
-  color: #8a8a8a;
-  font-family: Monaco, "Courier New", monospace;
-  font-weight: 600;
-  font-size: 0.65em;
-  display: block;
-  text-transform: uppercase;
-}
-
-#sidebar-button {
-  height: intrinsic;
-  cursor: pointer;
-  display: none;
-  padding: rem(15) rem(5) 0px rem(5);
-  border-bottom: 1px solid #e7e7e7;
-  &:active, &:hover {
-    opacity: 0.7;
-  }
-}
-
 /*****************************************************************************/
 /*
-/* Colophon
+/* Site
 /*
 /*****************************************************************************/
 
-.colophon {
-  margin-top: 1.5em;
-  margin-bottom: 1.45em;
-  border-top: 1px dotted #e7e7e7;
-  p {
-    margin-top: 1.25em;
-    font-size: 0.95em;
-    color: #777;
-  }
+.site {
+  height: 100%;
+  width: 100%;
+  line-height: 1.25em;
 }
