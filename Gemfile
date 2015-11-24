@@ -5,3 +5,6 @@ source "https://rubygems.org"
 gem 'jekyll'
 gem 'bourbon'
 gem 'neat'
+
+# add the archive schnitzel
+gem 'jekyll-archives'

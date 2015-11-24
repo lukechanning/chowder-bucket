@@ -11,10 +11,33 @@ lsi: false
 markdown: kramdown
 highlighter: pygments
 
-###Add Bourbon
-gems: [bourbon, neat]
+### Add Bourbon
+gems: 
+    - bourbon
+    - neat
+    - jekyll-archives
 
-###Fix Sass Directory
+### Fix Sass Directory
 sass:
     sass_dir: _sass
     style: compressed
+    
+### Defaults for tags
+
+jekyll-archives:
+  enabled:
+    - year
+    - month
+    - tags
+    - categories
+  layouts:
+    year: archive-year
+    month: archive-month
+    tag: archive
+    category: archive
+  permalinks:
+    year: '/:year/'
+    month: '/:year/:month/'
+    day: '/:year/:month/:day/'
+    tag: '/tag/:name/'
+    category: '/:name/'

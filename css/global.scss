@@ -8,7 +8,6 @@
     //@import 'neat';
 
 //Get our basic stylesheets 
-
     @import 'main';
     @import 'responsive';
     @import 'syntax';
@@ -20,3 +19,7 @@
 //Get the Owl
     @import 'owl';
     @import 'owl-default';
+    
+//Get post specific stylings
+    @import 'postcards';
+    @import 'archive';

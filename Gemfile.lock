@@ -33,6 +33,8 @@ GEM
       redcarpet (~> 3.1)
       safe_yaml (~> 1.0)
       toml (~> 0.1.0)
+    jekyll-archives (2.1.0)
+      jekyll (>= 2.4)
     jekyll-coffeescript (1.0.1)
       coffee-script (~> 2.2)
     jekyll-gist (1.3.4)
@@ -76,6 +78,7 @@ PLATFORMS
 DEPENDENCIES
   bourbon
   jekyll
+  jekyll-archives
   neat
 
 BUNDLED WITH

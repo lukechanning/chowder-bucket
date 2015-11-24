@@ -4,7 +4,7 @@ title: Why Can't < i ><br> Just < b > Cool?
 subtitle: A Specifically Specific Code Questions Entry
 cover: covers/google-cover.jpg
 date:   2015-10-25 12:00:00
-categories: posts
+category: web-design
 permalink: why-i-and-b-elements-are-bad/
 tags:
 - i tags
@@ -14,6 +14,7 @@ tags:
 - html
 - semantic html
 - web development
+- web
 ---
 
 Today’s entry in the realm of overly-complicating otherwise pretty simple stuff, let’s look at an area central to all our hearts — styling text via HTML. Specifically, we’ll be looking at when to use the `<b>` and `<i>` tags, as well as when definitively not to. 
