@@ -11,10 +11,17 @@
   text-transform: uppercase;
   font-weight: 600;
   color: #787878;
+  a {
+    color: #222;
+    font-weight: 700;
+    text-decoration: underline;
+  }
 }
 
 #cover-photo-container {
   display: block;
+  height: 55vh;
+  background-size: cover;
   z-index: 100;
   #cover-photo {
     width: 100%;

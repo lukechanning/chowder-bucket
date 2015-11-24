@@ -3,15 +3,13 @@
       <img src="/images/sidebar-button.png">
     </div>
     <div id="post-info">
-      <div id="cover-photo-container">
-        <img id="cover-photo" src="/images/{{ page.cover }}">
-      </div>
+      {% include cover-photo.html %}
       <div id="info-container">
         <div class="title-block">
           <h1 id="title">{{ page.title }}</h1>
           <h2 id="subtitle"><em>{{ page.subtitle }}</em></h2>
         </div>
-        <div id="date">{{ page.date | date_to_string }}</div>
+        <div id="date"><a href="/{{ page.date | date: "%Y" }}">{{ page.date | date_to_string }}</a> - Posted in <a href="/{{ page.category }}">{{ page.category }}</a></div>
       </div>
     </div>
   
@@ -28,3 +26,4 @@
   </div>
   
 </div>
+
