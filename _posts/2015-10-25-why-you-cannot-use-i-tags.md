@@ -7,14 +7,11 @@ date:   2015-10-25 12:00:00
 category: web-design
 permalink: why-i-and-b-elements-are-bad/
 tags:
-- i tags
-- i elements
-- b elements
-- html5
 - html
-- semantic html
+- semantic code
 - web development
-- web
+- css
+- best practices
 ---
 
 Today’s entry in the realm of overly-complicating otherwise pretty simple stuff, let’s look at an area central to all our hearts — styling text via HTML. Specifically, we’ll be looking at when to use the `<b>` and `<i>` tags, as well as when definitively not to. 

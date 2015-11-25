@@ -7,11 +7,11 @@
                   <img id="cover-photo" src="/images/{{ post.cover }}">
                 </div>
                 <div class="card-header">
-                      {{ post.title }}
-                    <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+                    <h3>{{ post.title }}</h3>
+                    <p class="post-date">{{ post.date | date: "%b %-d, %Y" }}</p>
                 </div>
                 <div class="card-copy">
-                  {{ post.content | strip_html | truncatewords:50 }}
+                  <p>{{ post.content | strip_html | truncatewords:50 }}</p>
                 </div>
             </a>
             </div>

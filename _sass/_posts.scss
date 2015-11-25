@@ -19,7 +19,7 @@
   font-weight: 600;
   color: #787878;
   a {
-    color: #222;
+    color: $baseColour;
     font-weight: 700;
     text-decoration: underline;
   }
@@ -84,12 +84,12 @@
     margin-bottom: 1.25em;
   }
   a {
-    border-bottom: 1px solid #8085C1;
+    border-bottom: 1px solid $baseColour;
   }
 }
 
 #about a {
-  border-bottom: 1px solid #8085C1;
+  border-bottom: 1px solid $baseColour;
 }
 
 .post {

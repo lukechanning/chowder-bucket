@@ -3,18 +3,18 @@ layout: default
 ---
 
 <div class="content archive">
-      <div id="sidebar-button">
-      <img src="/images/sidebar-button.png">
+  <div id="sidebar-button">
+    <img src="/images/sidebar-button.png">
+  </div>
+  <div id="header">
+    <div class="title">
+      <h1 id="title">Router Chowder <br> during {{ page.date | date: "%Y" }}</h1>
+      <hr>
+      <h3 id="subtitle"><em>that's 18,688 fluid coffee ounces!</em></h3>
     </div>
-    <div id="post-info">
-      <div id="info-container">
-        <div class="title-block">
-          <h1 id="title">Router Chowder in - {{ page.date | date: "%Y" }}</h1>
-          <h2 id="subtitle"><em>the best and (sometimes) brightest</em></h2>
-        </div>
-      </div>
-    </div>
+    {% include tag-cloud.html %}
+  </div>
     
-    {% include blog-roll.html %}
+{% include blog-roll.html %}
 
 </div>
