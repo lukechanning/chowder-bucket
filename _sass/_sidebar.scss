@@ -37,9 +37,12 @@
   height: intrinsic;
   cursor: pointer;
   display: none;
-  padding: rem(15) rem(5) 0px rem(5);
+  padding: rem(7) rem(5);
   border-bottom: 1px solid #e7e7e7;
   &:active, &:hover {
     opacity: 0.7;
+  }
+  i {
+    color: $baseColour;
   }
 }
