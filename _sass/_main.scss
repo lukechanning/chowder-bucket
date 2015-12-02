@@ -56,7 +56,6 @@ a {
 
 .header {
   text-align: center;
-  padding-top: 2.5em;
   font-size: 1.1em;
   a {
     font-weight: 600;
@@ -67,12 +66,20 @@ a {
 
 /*****************************************************************************/
 /*
-/* Site
+/* Site & Content
 /*
 /*****************************************************************************/
 
 .site {
-  height: 100%;
+  height: 96%;
   width: 100%;
   line-height: 1.25em;
+}
+
+.sidebar, .content {
+  margin-top: 2rem;
+}
+
+@media only screen and (max-width:632px) {
+
 }

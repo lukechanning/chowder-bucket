@@ -149,3 +149,23 @@
   display: block;
   text-transform: uppercase;
 }
+
+//Did someone say "call to action"?
+
+.cta-links {
+  display: block;
+  width: 100%;
+  margin-top: 2rem;
+  .button {
+    padding: 1rem 2rem;
+    margin: 3rem 1rem;
+    border-bottom: none;
+    border: 1px solid $baseColour;
+    border-radius: 3px;
+    &:hover {
+      border: 1px solid $baseColour;
+      background: $baseColour;
+      color: $white;
+    }
+  }
+}

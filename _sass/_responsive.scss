@@ -1,7 +1,4 @@
 @media (max-width: 1309px) {
-  .header {
-    padding-top: 3.45em;
-  }
   .posts {
     font-size: 0.9em;
   }
@@ -17,9 +14,6 @@
   #title {
     font-size: 2.75em;
     line-height: 35px;
-  }
-  .header {
-    padding-top: 3.85em;
   }
   .posts {
     font-size: 0.85em;
@@ -39,6 +33,15 @@
  * iPhone width
  **/
 @media (max-width: 640px) {
+  .site {
+    height: 90%;
+  }
+  .sidebar, .content {
+    margin-top: 3.5rem;
+  }
+  .banner {
+    height: 35px !important;
+  }
   #logo {
     max-width: 75px;
   }

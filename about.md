@@ -4,7 +4,6 @@ title: About Me
 subtitle: area web developer uses tiny computer
 cover: covers/luke-bio.jpg
 date:   2013-12-09 12:00:00
-categories: posts
 permalink: about/
 tags:
 - luke patrick
