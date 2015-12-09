@@ -16,13 +16,15 @@ tags:
 - craft beer marketing
 ---
 
-> My name is Luke Patrick, and a long time ago, I was born — like most people. I've been pretty busy since. Router Chowder is my blog: I use it to share my experiences and code with those that need them.
+> My name is Luke Patrick, and I'm that dude up there. A long time ago, I was born — like most people. I've been pretty busy since.
 
-I used to work as a writer, covering everything from turkey recipes to big tech news. But I broke my hands and had to learn graphic design. A little after that, I helped start Kangabloo Creative in Central Arkansas. After three years as Creative Director, I'm back in Boulder, Colorado with a suitcase full of marketing, design and web development experience.
+I used to work as a writer, covering everything from turkey recipes to big tech news. Then I helped create [Kangabloo Creative](http://kangabloo.com) in Central Arkansas. After three years as Creative Director, I'm back in Boulder with a suitcase full of marketing, design and web development experience.
 
-I am currently freelancing, consulting, and / or feeding two cats — the fluffy wangs.
+> **Router Chowder** is a blog covering fun stuff like web design, music and life in Boulder, CO. 
 
-##Projects I am involved with 
+It is also a company made up of real people with magical abilities. We make incredible stuff, all of which you can buy to help continue the awesome-sauce you see here. For more information, see the header above. It's the big green thing. You can't miss it.
+
+##Related Projects & Activities
 
 *   [Kangabloo Creative](http://kangabloo.com) - A small business marketing agency based in Conway, AR
 *   [Snod & Jeff](http://snodandjeff.com) - A marketing agency for outdoor products and craft brewers in Boulder, CO
