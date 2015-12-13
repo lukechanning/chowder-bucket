@@ -39,6 +39,6 @@ Our testimonials plugin is also built on the best standards and includes rock-so
 To see just how stupid simple the whole testimonials thing can be, we dare you to give it a try.
 
 <div class="cta-links">
-<a class="button" href="/">Buy Now</a>
+<a class="button" href="http://codecanyon.net/item/ss-testimonials-for-wordpress/14043562">Buy Now</a>
 <a class="button" href="http://demo.routerchowder.com/ss-testimonials/">See Demo</a>
 </div>
