@@ -44,6 +44,7 @@
   display: block;
   height: 55vh;
   background-size: cover;
+  background-position: top center;
   z-index: 100;
   #cover-photo {
     width: 100%;
@@ -85,6 +86,9 @@
   }
   a {
     border-bottom: 1px solid $baseColour;
+  }
+  img {
+    max-width: 100%;
   }
 }
 
