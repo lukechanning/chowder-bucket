@@ -23,6 +23,7 @@
         max-width: 85%;
     }
     #footer-links {
+        line-height: 1.5rem;
         a {
             color: #333;
             &:hover {
@@ -41,7 +42,7 @@
   &:active, &:hover {
     opacity: 0.7;
   }
-  i {
-    color: $baseColour;
+  .envato {
+    color: $baseColour !important;
   }
 }
