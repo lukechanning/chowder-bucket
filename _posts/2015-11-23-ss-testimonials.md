@@ -1,6 +1,6 @@
 ---
 layout: page
-title: S.S. Testimonials
+title: Stupid Simple Testimonials
 subtitle: stupid simple WordPress testimonials plugin
 cover: covers/ss-testimonials-header.jpg
 date:   2015-11-29 12:00:00
@@ -19,26 +19,30 @@ Over the years, we’ve used a lot of WordPress testimonial plugins. Some were b
 
 ![Stupid simple testimonials plugin for WordPress](/images/gifs/quick-slide.gif)
 
-S.S. Testimonials — or _stupid simple_ — is a lightweight, minimalistic approach to WordPress testimonials. It takes only three minutes to install and display, from activation to final touches. Likewise, it requires no additional editing or code knowledge to look _exactly_ like the box. We call it “no assembly required.”
+Stupid Simple Testimonials is a lightweight, minimalistic approach to WordPress testimonials. It takes only three minutes to install and display, from activation to final touches. Likewise, it requires no additional editing or code knowledge to look _exactly_ like the box. We call it “no assembly required.”
 
-Best of all, you can charge this bad boy anywhere text is accepted. Just add the `[ss-testimonials]` shortcode where you want testimonials to magically appear. The rest is taken care of. Don’t even sweat it!
+Best of all, you can charge this bad boy anywhere text is accepted. Just add the `[simple-testimonials]` shortcode where you want testimonials to magically appear. The rest is taken care of. Don’t even sweat it!
 
 A short list of features includes: 
 
-1. 6 unique themes to get the ball rolling in your theme.
-2. Easy customization via the built-in WordPress Customizer — if you can click, you can change the settings.
-3. 3 minutes from installation to display. 
-4. We aren't kidding. It'll look exactly like the tin in freaky fast time. 
-5. Built-in custom stylesheet for easy developer access.
-6. All the latest and greatest frameworks under the hood, ensuring maximum browser compatibility. Does Grandma use Internet Explorer? Not a problem.
+1.  Multiple page layouts, including a **touch-enabled slider** and a dynamic grid
+2.  **Grid layout automatically adjusts** to match total number of testimonials, creating an attractive design every time
+3.  **Six unique color schemes** to match any theme you’ve got
+4.  Divide your testimonials into **categories** for easy management
+5.  Stupid simple shortcode – **[simple-testimonials]** – that can be used in pages, posts and widgets
+6.  Beautiful, minimalist design that **works right out of the box**, no coding required
+7.  Installation and setup so simple you can have it running in **3 minutes or less**
+8.  Easy testimonial editing using the standard WordPress editor – no need to learn new, complicated layouts
+9.  Fully **compatible with Visual Composer**, so you can use the tools you know and love
+10.  Beautiful documentation and full support. It works out-of-the-box, but we’re here just in case.
 
-We’re proud of the results, and we think it’s the perfect option for end users and hardcore coders alike. S.S. Testimonials includes a built-in, customizable CSS sheet for the salty tech savvy folks.
+We’re proud of the results, and we think it’s the perfect option for end users and hardcore coders alike. Stupid Simple Testimonials includes a built-in, customizable CSS sheet for the salty tech savvy folks.
 
 Our testimonials plugin is also built on the best standards and includes rock-solid jQuery via [Owl Carousel 2](http://www.owlcarousel.owlgraphic.com/) and the best in responsive CSS thanks to [Bourbon](http://bourbon.io). At barely over 100kb installed, it’s also crazy thin.
 
 To see just how stupid simple the whole testimonials thing can be, we dare you to give it a try.
 
 <div class="cta-links">
-<a class="button" href="http://codecanyon.net/item/ss-testimonials-for-wordpress/14043562">Buy Now</a>
+<a class="button" href="http://codecanyon.net/item/stupid-simple-testimonials-for-wordpress/14043562">Buy Now</a>
 <a class="button" href="http://demo.routerchowder.com/ss-testimonials/">See Demo</a>
 </div>
