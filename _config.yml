@@ -1,5 +1,4 @@
 name: Chowder
-markdown: redcarpet
 highlights: true
 
 
@@ -10,6 +9,10 @@ timezone: null
 lsi: false
 markdown: kramdown
 highlighter: pygments
+
+###Kramdown options
+kramdown:
+  input: GFM
 
 ### Add Bourbon
 gems: 

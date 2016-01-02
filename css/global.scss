@@ -6,6 +6,14 @@
 //Pour up some Bourbon.io
     @import 'bourbon';
     //@import 'neat';
+    
+//Get our fonts
+    @import url(https://fonts.googleapis.com/css?family=Raleway:400,600);
+    @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700);
+    
+//Get the Owl
+    @import 'owl';
+    @import 'owl-default';
 
 //Get our basic stylesheets 
     @import 'colors';
@@ -13,14 +21,11 @@
     @import 'main';
     @import 'responsive';
     @import 'syntax';
+    @import 'typography';
     @import 'home';
     @import 'footer';
     @import 'posts';
     @import 'banner';
-    
-//Get the Owl
-    @import 'owl';
-    @import 'owl-default';
     
 //Get post specific stylings
     @import 'postcards';

@@ -19,8 +19,14 @@
         max-width: 100%;
     }
     .decal, .logo {
-        margin-bottom: 1rem;
+        margin-bottom: rem(6);
         max-width: 85%;
+    }
+    .tagline {
+        line-height: rem(20);
+    }
+    .owl-nav {
+        margin-top: 0 !important;
     }
     #footer-links {
         line-height: 1.5rem;

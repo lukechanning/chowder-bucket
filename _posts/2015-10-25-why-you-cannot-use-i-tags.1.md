@@ -4,7 +4,7 @@ title: Why Can't < i > Just < b > Cool?
 subtitle: A Specifically Specific Code Questions Entry
 cover: covers/code-cover.jpg
 date:   2015-10-25 12:00:00
-category: web-design
+category: web development
 permalink: why-i-and-b-elements-are-bad/
 tags:
 - html
