@@ -36,7 +36,8 @@
   .site {
     height: 90%;
   }
-  .sidebar, .content {
+  
+  .content {
     margin-top: 3.5rem;
   }
   .banner {
@@ -54,6 +55,7 @@
   }
   .sidebar {
     transition: 1s;
+    margin-top: 2rem;
     margin-left: -100%;
     z-index: 3;
     width: 35%;
