@@ -35,14 +35,18 @@
       {% include analytics.html %}
   </head>
   <body>
-    <div class="site">
+    <div class="site row full">
         
         {% include sidebar.html %}
         {{ content }}
 
     </div>
     {% include banner.html %}
+    <script src="bower_components/foundation/js/foundation.min.js"></script>
     <script src="/scripts/responsive.js" type="text/javascript"></script>
     <script src="/scripts/jCustom.js" type="text/javascript"></script>
+    <script>
+        $(document).foundation();
+    </script>
   </body>
 </html>

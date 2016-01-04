@@ -1,6 +1,5 @@
-name: Chowder
+name: Router Chowder
 highlights: true
-
 
 ### site serving configuration ###
 exclude: [CNAME, README.md, .gitignore]
@@ -16,8 +15,6 @@ kramdown:
 
 ### Add Bourbon
 gems: 
-    - bourbon
-    - neat
     - jekyll-archives
 
 ### Fix Sass Directory

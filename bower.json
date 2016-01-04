@@ -1,0 +1,7 @@
+{
+  "name": "chowder_bucket",
+  "dependencies": {
+    "owl.carousel": "OwlCarousel2#~2.0.0-beta.3",
+    "foundation": "~5.5.3"
+  }
+}

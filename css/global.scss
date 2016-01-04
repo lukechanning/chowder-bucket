@@ -3,9 +3,10 @@
 # only our Global file needs the front-matter, the rest are fine
 ---
 
-//Pour up some Bourbon.io
-    @import 'bourbon';
-    //@import 'neat';
+//Get our rock-solid Foundation
+    @import 'normalize';
+    @import 'foundation';
+    @import 'settings';
     
 //Get the Owl
     @import 'owl';
