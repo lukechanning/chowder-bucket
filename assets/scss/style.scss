@@ -1,11 +1,4 @@
----
-# this ensures Jekyll reads the file to be transformed into CSS later
-# only our Global file needs the front-matter, the rest are fine
----
-
 //Get our rock-solid Foundation
-    @import 'normalize';
-    @import 'foundation';
     @import 'settings';
     
 //Get the Owl

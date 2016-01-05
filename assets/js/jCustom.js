@@ -5,4 +5,4 @@ $('.owl-carousel').owlCarousel({
     items: 1,
     autoHeight: true,
     dots: false,
-})
+});

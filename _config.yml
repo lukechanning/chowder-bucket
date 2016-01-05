@@ -8,19 +8,17 @@ timezone: null
 lsi: false
 markdown: kramdown
 highlighter: pygments
+exclude :
+  - node_modules
+  - assets
 
 ###Kramdown options
 kramdown:
   input: GFM
 
-### Add Bourbon
+### Add archive functionality
 gems: 
     - jekyll-archives
-
-### Fix Sass Directory
-sass:
-    sass_dir: _sass
-    style: compressed
     
 ### Defaults for tags
 

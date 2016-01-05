@@ -1,19 +1,56 @@
-module.exports = function(grunt) {
-  grunt.initConfig({
-    pkg: grunt.file.readJSON('package.json'),
+'use strict';
 
-    copy: {
-      foundation: {
-        expand: true,
-        src: '_components/foundation/scss/**',
-        dest: '_sass/**',
-        flatten: true,
-      },
-    },
+module.exports = function (grunt) {
+    
+    //Add our tasks
+    require('load-grunt-tasks')(grunt, {scope: 'devDependencies'});
 
-  });
+    grunt.initConfig({
+        pkg: grunt.file.readJSON('package.json'),
 
-  grunt.loadNpmTasks('grunt-contrib-copy');
+        // sass (libsass) config
+        sass: {
+        options: {
+            includePaths: ['_components/foundation-sites/scss']
+          },
+        dist: {
+            options: {
+              outputStyle: 'compressed'
+            },
+            files: {
+              'css/style.css': 'assets/scss/style.scss'
+            }        
+          }
+        },
+        
+        // have Grunt uglify our Javascripts for us, keeping it tight
+        uglify: {
+            my_target: {
+              files: {
+                'js/site.min.js': [
+                    '_components/jquery/dist/jquery.min.js',
+                    '_components/owl.carousel/dist/owl.carousel.min.js',
+                    'assets/js/responsive.js'
+                ],
+                'js/custom.min.js' : [
+                    'assets/js/jCustom.js'
+                ],
+              }
+            }
+        },
+        
+        // watch for files to change and run tasks when they do
+        watch: {
+            grunt: { files: ['Gruntfile.js'] },
+            sass: {
+                files: ['assets/scss/**/*.{scss,sass}'],
+                tasks: ['sass']
+            }
+        }
 
-  grunt.registerTask('default', ['copy']);
-}
+    });
+
+    // Register build as the default task fallback
+    grunt.registerTask('default', ['sass','uglify','watch']);
+
+};
