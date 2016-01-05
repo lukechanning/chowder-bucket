@@ -15,7 +15,8 @@ module.exports = function (grunt) {
           },
         dist: {
             options: {
-              outputStyle: 'compressed'
+              outputStyle: 'compressed',
+              sourceMap: false
             },
             files: {
               'css/style.css': 'assets/scss/style.scss'
