@@ -39,11 +39,10 @@ module.exports = function (grunt) {
               files: {
                 'js/site.min.js': [
                     '_components/jquery/dist/jquery.min.js',
-                    '_components/owl.carousel/dist/owl.carousel.min.js',
-                    '_assets/js/responsive.js'
+                    '_components/owl.carousel/dist/owl.carousel.min.js'
                 ],
                 'js/custom.min.js' : [
-                    '_assets/js/jCustom.js'
+                    '_assets/js/custom.js'
                 ],
               }
             }
@@ -55,16 +54,18 @@ module.exports = function (grunt) {
             sass: {
                 files: ['_assets/scss/**/*.{scss,sass}'],
                 tasks: ['sass']
+            },
+            uglify: {
+                files: ['_assets/js/**/*.js'],
+                tasks: ['uglify']
             }
         },
         
         //load concurrently all the junk we need
         concurrent: {
             serve: [
-                'sass',
-                'uglify',
-                'watch',
-                'shell:jekyllServe'
+                'shell:jekyllServe',
+                'watch'
             ],
             options: {
                 logConcurrentOutput: true
