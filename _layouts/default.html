@@ -23,23 +23,21 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="/images/icons/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
-    <!-- Grab the stylehseet -->
-    <link rel="stylesheet" href="{{ "/css/style.css" | prepend: site.baseurl }}">
     <!-- Grab our global java -->
     <script src="{{ "/js/site.min.js" | prepend: site.baseurl }}" type="text/javascript"></script>
+    <!-- Grab the stylehseet -->
+    <link rel="stylesheet" href="{{ "/css/style.css" | prepend: site.baseurl }}">
     <!-- Get Fonted, Fool! -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <!-- Analytics, my dear! -->
     {% include analytics.html %}
   </head>
   <body>
-    <div class="site row full">
-        
-        {% include sidebar.html %}
+    <div class="site row expanded large-collapse">
+        {% include sidebar/sidebar.html %}
         {{ content }}
-
     </div>
-    {% include banner.html %}
+    
 
     <!-- Grab our global java -->
     <script src="{{ "/js/custom.min.js" | prepend: site.baseurl }}" type="text/javascript"></script>

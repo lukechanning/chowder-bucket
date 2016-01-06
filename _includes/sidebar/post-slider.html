@@ -1,0 +1,10 @@
+<div class="posts-list small-8 small-centered columns owl-carousel owl-theme">
+    {% for post in site.posts %}
+      <div class="post-link item">
+        <a class="post-title" href="{{ post.url }}">
+          <span class="post-date">{{ post.date | date_to_string }}</span>
+          {{ post.title }}
+        </a>
+      </div>
+    {% endfor %}
+</div>

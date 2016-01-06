@@ -1,0 +1,50 @@
+.sidebar {
+    margin-top: rem-calc(20);
+    text-align: center;
+    border-right: 1px solid $shader;
+    overflow: auto;
+    .fallback {
+        display: none !important;
+    }
+    u {
+        font-weight: 700;
+        color: #222;
+    }
+    .decal, .logo {
+        margin-bottom: rem-calc(6);
+    }
+    .taglines {
+        padding: 0 rem-calc(20);
+        .tagline {
+            line-height: rem-calc(20);
+        }
+    }
+    .owl-nav {
+        margin-top: 0 !important;
+    }
+    .footer {
+      font-size: 0.95em;
+      border-top: 1px solid #e7e7e7;
+      padding-top: 1.25em;
+      padding-bottom: 1.5em;
+      float: center;
+      text-align: center;
+      a {
+        font-size: 1rem;
+      }
+    }
+    .footer-links {
+        line-height: 1.5rem;
+        a {
+            color: #333;
+            &:hover {
+                opacity: 0.8;
+            }
+        }
+    }
+    @include breakpoint(large) {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+    }
+}
