@@ -3,6 +3,7 @@
   "dependencies": {},
   "devDependencies": {
     "owl.carousel": "OwlCarousel2#~2.0.0-beta.3",
-    "foundation-sites": "~6.1.1"
+    "foundation-sites": "~6.1.1",
+    "motion-ui": "~1.1.1"
   }
 }
