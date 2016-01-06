@@ -10,7 +10,8 @@ markdown: kramdown
 highlighter: pygments
 exclude :
   - node_modules
-  - assets
+  - _assets
+  - _components
 
 ###Kramdown options
 kramdown:
