@@ -21,11 +21,12 @@ module.exports = function (grunt) {
         sass: {
           dist: {
             options: { 
-                loadPath: [
+                includePaths: [
                     '_components/foundation-sites/scss',
-                    '_components/motion-ui/src'
+                    //'_components/motion-ui/src'
                     ],
-                style: 'expanded'
+                outputStyle: 'compressed',
+                sourceMap: true
             },
             files: {
                 'css/style.css': '_assets/scss/style.scss'
@@ -74,7 +75,6 @@ module.exports = function (grunt) {
 
     });
     
-    grunt.loadNpmTasks('grunt-contrib-sass');
     
     // register the serve task
     grunt.registerTask('serve', ['concurrent:serve']);
