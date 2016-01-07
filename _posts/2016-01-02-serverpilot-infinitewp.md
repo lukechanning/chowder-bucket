@@ -2,7 +2,7 @@
 layout: page
 title: Setup InfiniteWP using ServerPilot
 subtitle: 15 minutes can save you hours in maintenance
-cover: covers/serverpilot-cover.jpg
+fa-icon: plane
 date:   2016-01-02 12:00:00
 permalink: setup-infinitewp-serverpilot/
 category: web development

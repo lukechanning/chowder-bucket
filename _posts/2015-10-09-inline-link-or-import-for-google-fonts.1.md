@@ -2,13 +2,12 @@
 layout: post
 title: Inline Link or Import for Google Fonts?
 subtitle: A Specifically Specific Code Questions Entry
-cover: covers/google-cover.jpg
+fa-icon: google
 date:   2015-10-09 12:00:00
 category: web development
 permalink: inline-link-vs-import-google-fonts/
 tags:
 - fonts
-- web development
 - google
 - css
 - html

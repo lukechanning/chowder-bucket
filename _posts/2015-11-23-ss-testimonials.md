@@ -2,7 +2,7 @@
 layout: page
 title: Stupid Simple Testimonials
 subtitle: stupid simple WordPress testimonials plugin
-cover: covers/ss-testimonials-header.jpg
+fa-icon: wordpress
 date:   2015-11-29 12:00:00
 permalink: stupid-simple-wordpress-testimonials/
 category: plugins

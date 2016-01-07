@@ -2,14 +2,13 @@
 layout: post
 title: Why Can't < i > Just < b > Cool?
 subtitle: A Specifically Specific Code Questions Entry
-cover: covers/code-cover.jpg
+fa-icon: file-code-o
 date:   2015-10-25 12:00:00
 category: web development
 permalink: why-i-and-b-elements-are-bad/
 tags:
 - html
 - semantic code
-- web development
 - css
 - best practices
 ---
