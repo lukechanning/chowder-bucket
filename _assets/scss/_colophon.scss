@@ -7,10 +7,9 @@
 .colophon {
   margin-top: 1.5em;
   margin-bottom: 1.45em;
-  border-top: 1px dotted #e7e7e7;
+  border-top: 1px dotted $medium-gray;
   p {
     margin-top: 1.25em;
-    font-size: 10px;
-    color: #777;
+    color: $dark-gray;
   }
 }
