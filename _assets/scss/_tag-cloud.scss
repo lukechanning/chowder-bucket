@@ -1,15 +1,15 @@
-.tag-cloud {
+.tags {
     margin-top: rem(10px);
-    .tag-list {
-        max-width: 50%;
+    .tag-cloud {
         margin: 0 auto;
         list-style: none;
         text-align: center;
-        .tag-item {
-            left: 0;
+        .tag {
             display: inline-block;
+            float: none;
+            left: 0;
             width: auto;
-            padding: 0 rem(10px);
+            margin: 0 5px;
         }
     }
 }

@@ -1,9 +1,10 @@
 ---
-layout: page
+layout: post
 title: About Me
 subtitle: area web developer uses tiny computer
 cover: covers/luke-bio.jpg
 date:   2013-12-09 12:00:00
+tagshow: false
 permalink: about/
 tags:
 - luke patrick

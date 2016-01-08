@@ -1,0 +1,16 @@
+<div class="tags row">
+  <div class="small-centered small-6 columns">
+    {% if page.type == "category" %}
+    {% assign sorted_tags = site.tags | sort %}
+      <i class="fa fa-tag"></i>
+      <ul class="tag-cloud">
+        {% for tag in sorted_tags %}
+          {% assign cloud = tag[1] | where: "category", page.title | sort %}
+              {% if cloud != empty %}
+                <li class="tag"><a class="tag-link" href="/tag/{{ tag[0] | replace: ' ','-' }}">{{ tag[0] }}</a></li>
+              {% endif %}
+        {% endfor %}
+      </ul>
+    {% endif %}
+  </div>
+</div>

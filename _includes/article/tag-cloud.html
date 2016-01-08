@@ -1,0 +1,17 @@
+<div class="tags row">
+   {% if page.tagshow != false %}
+       <ul class="article-tags tag-cloud small-12 small-centered columns">
+           <div class="row">
+               <div class="small-12 small-centered columns">
+                   <i class="fa fa-tag"></i>
+               </div>
+           </div>
+           <li class="tag"><a class="tag-link" href="/{{ page.category | replace: ' ','-' | downcase }}">{{ page.category }}</a></li>
+            {% if page.tags != empty %}
+                {% for tag in page.tags %}
+                   <li class="tag"><a class="tag-link" href="/tag/{{ tag | replace: ' ','-' }}">{{ tag }}</a></li>
+                {% endfor %}
+            {% endif %}
+        </ul>
+    {% endif %}
+</div>

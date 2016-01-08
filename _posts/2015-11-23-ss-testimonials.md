@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Stupid Simple Testimonials
 subtitle: stupid simple WordPress testimonials plugin
 fa-icon: wordpress

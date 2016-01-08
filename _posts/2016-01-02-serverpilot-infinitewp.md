@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Setup InfiniteWP using ServerPilot
 subtitle: 15 minutes can save you hours in maintenance
 fa-icon: plane

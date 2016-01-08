@@ -1,20 +1,37 @@
+// let's style up the archive pages
 .archive {
-    .wrapper {
-        padding-left: 0;
-    }
-    //Let's style up the header real nice
-    #header {
+    padding-top: rem-calc(35);
+    // start with the header styling
+    .header {
+        margin-bottom: 3em;
         text-align: center;
-        padding: rem(25px) 0;
-        #subtitle {
-            margin-top: rem(10px);
-            font-weight: 500;
-        }
-        h1 {
-            line-height: 2rem;
-        }
         hr {
-            margin-top: rem(10px);
+            max-width: 45%;
+        }
+    }
+    // then the actual blog roll itself
+    section.article {
+        padding: rem-calc(20) 0;
+        border-bottom: 1px solid $light-gray;
+        .article-title {
+            h3 {
+                font-weight: 500;
+                color: lighten($black, 20%);
+            }
+        }
+        .article-tags {
+            margin-left: 0;
+            list-style-type: none;
+            .article-tag {
+                display: inline-block;
+                left: 0;
+                margin: 0 rem-calc(3);
+                font-size: rem-calc(12);
+                a {
+                    color: $black;
+                    text-decoration: underline;
+                }
+            }
         }
     }
 }

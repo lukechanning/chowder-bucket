@@ -1,0 +1,21 @@
+<div class="row">
+    <div class="article-lead small-10 small-centered columns">
+        {% if page.fa-icon != empty %}
+            <i class="fa fa-4x fa-{{ page.fa-icon }}"></i>
+        {% endif %}
+        <h1 id="article-title">
+            {{ page.title }}
+        </h1>
+        <hr>
+        <div class="row">
+            <h4 id="article-subtitle" class="small-10 small-centered columns">
+                <em>{{ page.subtitle }}</em>
+            </h4>
+        </div>
+        <div class="article-subinfo row">
+            <div id="article-date" class="small-6 small-centered columns">
+                {% include article/tag-cloud.html %}
+            </div>
+        </div>
+    </div>
+</div>

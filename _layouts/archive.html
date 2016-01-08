@@ -2,16 +2,18 @@
 layout: default
 ---
 
-<div class="content archive">
-  <div id="header">
-    <div class="title">
-      <h1 id="title">Router Chowder <br> {{ page.title | replace: '-',' ' | capitalize_all }}</h1>
+<div class="archive">
+  <div class="header">
+    <div class="archive-title">
+      <h1 class="title">Router Chowder <br> {{ page.title | replace: '-',' ' | capitalize_all }}</h1>
       <hr>
-      <h3 id="subtitle"><em>the best and (sometimes) brightest</em></h3>
+      <h3 class="subtitle"><em>the best and (sometimes) brightest</em></h3>
     </div>
-    {% include tag-cloud.html %}
+    {% include blog/tag-cloud.html %}
   </div>
-    
-{% include blog-roll.html %}
-
+  <div class="row">
+    <div class="articles small-9 small-centered columns">
+      {% include blog/blog-roll.html %}
+    </div>
+  </div>
 </div>
