@@ -14,7 +14,6 @@
     @include foundation-button-group;
     @include foundation-label;
     @include foundation-media-object;
-    @include foundation-title-bar;
     //@include motion-ui-transitions;
     //@include motion-ui-animations;
 
@@ -23,6 +22,7 @@
     @import 'owl.theme.default';
 
 //Get our basic stylesheets 
+    @import 'main';
     @import 'banner';
     @import 'sidebar';
     @import 'articles';

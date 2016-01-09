@@ -34,6 +34,9 @@
     {% include analytics.html %}
   </head>
   <body>
+    <div class="banner row expanded">
+      {% include banner.html %}
+    </div>
     <div class="site row expanded large-collapse">
         <div class="sidebar medium-12 large-3 columns">
           {% include sidebar/sidebar.html %}
@@ -42,10 +45,7 @@
           {{ content }}
         </div>
     </div>
-    
-
     <!-- Grab our global java -->
     <script src="{{ "/js/custom.min.js" | prepend: site.baseurl }}" type="text/javascript"></script>
-    
   </body>
 </html>

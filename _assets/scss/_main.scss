@@ -1,0 +1,11 @@
+// quick, dirty fix for horizontal overflow
+.content {
+    overflow-x: hidden;
+}
+
+// fix for our content when banner is involved
+.sidebar, .content {
+    @include breakpoint(large) {
+        margin-top: rem-calc(40);
+    }
+}

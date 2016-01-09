@@ -1,15 +1,14 @@
 .banner {
-    position: absolute;
     top: 0;
     display: block;
-    height: 20px;
-    width: 100%;
-    padding: 10px 0;
     text-align: center;
     background-color: $primary-color;
     z-index: 300;
-    h3 {
+    p {
+        padding: rem-calc(6) 0;
+        font-size: rem-calc(21);
         color: $white;
+        margin-bottom: 0;
         text-transform: uppercase;
     }
     a {
@@ -19,5 +18,9 @@
             color: $white;
             opacity: 0.7;
         }
+    }
+    @include breakpoint(large) {
+        position: fixed;
+        width: 100%;
     }
 }
