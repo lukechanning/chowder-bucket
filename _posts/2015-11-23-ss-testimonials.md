@@ -7,6 +7,7 @@ date:   2015-11-29 12:00:00
 permalink: stupid-simple-wordpress-testimonials/
 category: plugins
 tags:
+- tools
 - wordpress
 - testimonials
 - stupid simple

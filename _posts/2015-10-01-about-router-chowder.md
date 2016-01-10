@@ -7,26 +7,31 @@ date:   2013-12-09 12:00:00
 tagshow: false
 permalink: about/
 tags:
+- router chowder
 - luke patrick
 - boulder
 - colorado
 - web development
-- snod and jeff
-- kangabloo
-- outdoor industry marketing
-- craft beer marketing
 ---
 
-> My name is Luke Patrick, and I'm that dude up there. A long time ago, I was born — like most people. I've been pretty busy since.
+<div class="row" markdown='1'>
 
-I used to work as a writer, covering everything from turkey recipes to big tech news. Then I helped create [Kangabloo Creative](http://kangabloo.com) in Central Arkansas. After three years as Creative Director, I'm back in Boulder with a suitcase full of marketing, design and web development experience.
+<div class="small-5 columns" markdown='1'>
 
-> **Router Chowder** is a blog covering fun stuff like web design, music and life in Boulder, CO. 
+> #### Hi!<br> We're Router Chowder, a micro-agency and blog.
 
-It is also a company made up of real people with magical abilities. We make incredible stuff, all of which you can buy to help continue the awesome-sauce you see here. For more information, see the header above. It's the big green thing. You can't miss it.
+</div>
 
-##Related Projects & Activities
+<div class="small-7 columns" markdown='1'>
 
-*   [Kangabloo Creative](http://kangabloo.com) - A small business marketing agency based in Conway, AR
-*   [Snod & Jeff](http://snodandjeff.com) - A marketing agency for outdoor products and craft brewers in Boulder, CO
+We are a three person agency, and we make _awesome_ stuff for the Web. Whether it's [WordPress tools](/tag/tools/) or web apps, we to love code. We also write about web development, music and [Boulder](https://bouldercolorado.gov/). Add in the fact that we can (kinda) dance, and we're a triple threat! You _know_ our moms are proud. 
+
+</div>
+    
+</div>
+
+## Related Projects & Activities
+
+*   [Kangabloo Creative](http://kangabloo.com) - A small business marketing agency | **Conway, AR**
+*   [Snod & Jeff](http://snodandjeff.com) - A marketing agency for outdoor products and craft brewers | **Boulder, CO**
 
