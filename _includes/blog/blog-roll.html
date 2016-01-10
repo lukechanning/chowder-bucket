@@ -20,7 +20,7 @@
         </div>
         <div class="large-7 columns">
            <div class="article-excerpt">
-                <p>{{ post.content | strip_html | markdownify | truncatewords:40 }}</p>    
+                <p>{{ post.content | markdownify | strip_html | truncatewords:40 }}</p>    
             </div>
             <div class="row">
                 <div class="small-4 end columns">
