@@ -73,6 +73,21 @@ module.exports = function (grunt) {
                 logConcurrentOutput: true
             }
         },
+        
+        //fix-up our css with a postprocessor
+        postcss: {
+            options: {
+              map: true, // inline sourcemaps
+              processors: [
+                require('pixrem')(), // add fallbacks for rem units
+                require('autoprefixer')({browsers: 'last 2 versions'}), // add vendor prefixes
+                require('cssnano')() // minify the result
+              ]
+            },
+            dist: {
+              src: 'css/style.css'
+            }
+         }
 
     });
     
@@ -81,6 +96,6 @@ module.exports = function (grunt) {
     grunt.registerTask('serve', ['concurrent:serve']);
 
     // Register build as the default task fallback
-    grunt.registerTask('default', ['sass','uglify']);
+    grunt.registerTask('default', ['sass','uglify', 'postcss']);
 
 };

@@ -2,13 +2,15 @@ name: Router Chowder
 highlights: true
 
 ### site serving configuration ###
-exclude: [CNAME, README.md, .gitignore]
 permalink: / ## disables post output
 timezone: null
 lsi: false
 markdown: kramdown
 highlighter: pygments
 exclude :
+  - CNAME
+  - README.md
+  - .gitignore
   - node_modules
   - _assets
   - _components
@@ -19,10 +21,9 @@ kramdown:
 
 ### Add archive functionality
 gems: 
-    - jekyll-archives
-    
+  - jekyll-archives
+  
 ### Defaults for tags
-
 jekyll-archives:
   enabled:
     - year
