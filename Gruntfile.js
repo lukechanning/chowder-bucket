@@ -14,6 +14,9 @@ module.exports = function (grunt) {
         shell: {
             jekyllServe: {
                 command: 'jekyll serve --host $IP --port $PORT --baseurl ""'
+            },
+            jekyllDeploy: {
+                command: 'grunt && jekyll build && cd _site && rsync -rui . serverpilot@52.34.182.130:apps/mainblog/public/ && cd ~/workspace'
             }
         },
 
@@ -91,9 +94,11 @@ module.exports = function (grunt) {
 
     });
     
-    
     // register the serve task
     grunt.registerTask('serve', ['concurrent:serve']);
+    
+    // register the deploy task
+    grunt.registerTask('deploy', ['concurrent:serve']);
 
     // Register build as the default task fallback
     grunt.registerTask('default', ['sass','uglify', 'postcss']);

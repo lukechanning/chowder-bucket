@@ -1,11 +1,9 @@
 name: Router Chowder
 highlights: true
-desc: "Micro-agency specializing in web apps and development, plus a blog about the Web, music and life in Boulder"
-tags: "web design, web development, web development agency, router chowder, boulder, wordpress development, music blog, luke patrick"
 
 ### site serving configuration ###
 permalink: / ## disables post output
-timezone: null
+timezone: America/Denver
 lsi: false
 markdown: kramdown
 highlighter: pygments
@@ -16,6 +14,13 @@ exclude :
   - node_modules
   - _assets
   - _components
+  - Gemfile
+  - Gemfile.lock
+  - Gruntfile.js
+  - npm-debug.log
+  - bower.json
+  - package.json
+  
 
 ###Kramdown options
 kramdown:
