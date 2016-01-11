@@ -98,9 +98,9 @@ module.exports = function (grunt) {
     grunt.registerTask('serve', ['concurrent:serve']);
     
     // register the deploy task
-    grunt.registerTask('deploy', ['concurrent:serve']);
+    grunt.registerTask('deploy', ['shell:jekyllDeploy']);
 
     // Register build as the default task fallback
-    grunt.registerTask('default', ['sass','uglify', 'postcss']);
+    grunt.registerTask('default', ['sass','uglify','postcss']);
 
 };
