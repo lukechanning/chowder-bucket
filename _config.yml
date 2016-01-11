@@ -1,5 +1,7 @@
 name: Router Chowder
 highlights: true
+desc: "Micro-agency specializing in web apps and development, plus a blog about the Web, music and life in Boulder"
+tags: "web design, web development, web development agency, router chowder, boulder, wordpress development, music blog, luke patrick"
 
 ### site serving configuration ###
 permalink: / ## disables post output
