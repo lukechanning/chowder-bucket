@@ -1,11 +1,15 @@
 Chowder Bucket
 ====
 
-The base theme used for my personal blog, [RouterChowder](http://routerchowder.com).
+The base theme used for micro-agency and blog, [RouterChowder](http://routerchowder.com).
 
-It is loosely built off the fantatic [Flex](https://github.com/the-development/flex) theme.
+It started life as a redesign of the excellent [Flex](https://github.com/the-development/flex) theme, but has since moved pretty far away from that. Now it's sporting easy-to-manage features like [Bower](http://bower.io/) / [Grunt](http://gruntjs.com/) and a snazzy, single line deploy system.
 
-All the code contained here endeavours to be as explanatory as possible. If you'd like to build off of what's here, feel free to fork and explore! All I ask is that you give a nod (or donate) where your heart desires. 
+Oh, and it also uses [Foundation 6](https://github.com/zurb/foundation-sites), the single greatest web framework anywhere. Major props to [Zurb](https://github.com/zurb) for the incredible new release. 
+
+All the code contained here tries to be as explanatory as possible. If you would like to build off of what's here, fork and explore! All I ask is that you give a nod (or donate) where your heart desires. You can also purchase our [swag](https://www.stickermule.com/en/marketplace/9882-router-chowder-monster) or our [tools](http://routerchowder.com/tag/tools). 
+
+We will <3 you forever, if you do!
 
 Installation
 ===
@@ -13,13 +17,16 @@ To use this theme, you would do so like any other Jekyll setup:
 
 1. Install Jekyll: `gem install jekyll`
 2. Fork this repository to your machine
-3. `cd` to the forked directory and run `jekyll serve --watch`
-4. Boogie on from there, Reggae Woman!
+3. `cd` to the forked directory and run `npm install`
+4. Serve up the site using `grunt serve`
+5. Change deploy settings in `Gruntfile.js` to match your server
+6. When you are ready to deploy, run `grunt deploy` 
+7. Boogie on from there, Reggae Woman!
 
 Contributions
 ===
 
-For the most part, contributions will not be accepted. That being said, you are _more than_ welcome to pop the hood, fork the project, and create your own version of the theme! If you do modify the base code, be sure to let me know on Twitter: [lukepatrick](http://twitter.com/lukechanning)
+For the most part, contributions will not be accepted. That being said, you are _more than_ welcome to pop the hood, fork the project, and create your own version of the theme! If you do modify the base code, be sure to let us know on Twitter: [@chowdermonsters](http://twitter.com/chowdermonsters)
 
 License
 ===
