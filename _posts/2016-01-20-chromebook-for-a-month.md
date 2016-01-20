@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Using a Chromebook for Web Development
+title: Chromebook for Web Development
 subtitle: how i shacked up with Chrome OS for a month
 fa-icon: laptop
 date:   2016-01-20 12:00:00
