@@ -6,6 +6,7 @@ fa-icon: laptop
 date:   2016-01-20 12:00:00
 permalink: chromebook-for-web-development/
 category: web development
+desc: A Chromebook is not only great for web development, it might just be the greatest thing ever
 tags:
 - chromebook
 - chrome os
