@@ -73,7 +73,7 @@ Imagine a world where (ideally) nothing you do is stored locally. There’s no n
 
 So, when your laptop gets swiped off a Starbucks coffee table, you don’t have to worry. **You haven’t lost anything.**
 
-Stop to consider that for a moment. [DEFCON 1](https://en.wikipedia.org/wiki/DEFCON) has been reached, and you can be as calm as [Jeff Bridges](http://www.dreamingwithjeff.com/). Why should you care? The old device is locked, all of your files are on the cloud, and you're completely safe. You can waltz down to your nearest Best Buy, purchase a brand-new replacement, and be working again in only slightly longer than the 15 seconds it takes to booth the thing up. 
+Stop to consider that for a moment. [DEFCON 1](https://en.wikipedia.org/wiki/DEFCON) has been reached, and you can be as calm as [Jeff Bridges](http://www.dreamingwithjeff.com/). Why should you care? The old device is locked, all of your files are on the cloud, and you're completely safe. You can waltz down to your nearest Best Buy, purchase a brand-new replacement, and be working again in only slightly longer than the 15 seconds it takes to boot the thing up. 
 
 It’s breathtaking, really. With no files to worry about and no real security concerns (outside of the philosophical), you’re freer than local environments could ever make you. In fact, I *love* that Chrome OS treats local storage like unwanted space. Everything on it can be [deleted automatically, or at will.](https://support.google.com/chromebook/answer/183084?hl=en) Think of it as a zero carbon footprint for your workflow. It’s clean, headache-free, and just *right*. 
 
