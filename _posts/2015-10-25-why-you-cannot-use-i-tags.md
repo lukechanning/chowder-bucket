@@ -5,6 +5,7 @@ subtitle: A Specifically Specific Code Questions Entry
 fa-icon: file-code-o
 date:   2015-10-25 12:00:00
 category: web development
+desc: We all need to stop using i and b tags in hour HTML, and here's Router Chowder's reason why
 permalink: why-i-and-b-elements-are-bad/
 tags:
 - html

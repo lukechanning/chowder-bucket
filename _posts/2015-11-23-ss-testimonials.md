@@ -6,6 +6,7 @@ fa-icon: wordpress
 date:   2015-11-29 12:00:00
 permalink: stupid-simple-wordpress-testimonials/
 category: plugins
+desc: The best testimonials plugin for WordPress, install and display in only three minutes
 tags:
 - tools
 - wordpress

@@ -6,6 +6,7 @@ fa-icon: plane
 date:   2016-01-02 12:00:00
 permalink: setup-infinitewp-serverpilot/
 category: web development
+desc: Using InfiniteWP with ServerPilot is the best way to save time while updating multiple WordPress sites
 tags:
 - wordpress
 - serverpilot

@@ -5,6 +5,7 @@ subtitle: A Specifically Specific Code Questions Entry
 fa-icon: google
 date:   2015-10-09 12:00:00
 category: web development
+desc: We've all been doing Google fonts wrong, but the reasoning (and the solution) makes perfect sense
 permalink: inline-link-vs-import-google-fonts/
 tags:
 - fonts
