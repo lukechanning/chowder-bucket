@@ -6,7 +6,7 @@ permalink: / ## disables post output
 timezone: America/Denver
 lsi: false
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 exclude :
   - CNAME
   - README.md
@@ -25,6 +25,8 @@ exclude :
 ###Kramdown options
 kramdown:
   input: GFM
+  syntax_highlighter_opts:
+    line_numbers: true
 
 ### Add archive functionality
 gems: 
