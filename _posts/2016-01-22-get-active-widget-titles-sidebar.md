@@ -27,7 +27,7 @@ $id['title']
 
 would work. We could just iterate through all our widgets, and life will be peachy. 
 
-> And that would be great! Just one problem: It doesn't exit.
+> And that would be great! Just one problem: It doesn't exist.
 
 Sadly, there's no official way to hack this. Not yet, anyway. WordPress gives us lots of options for managing widget titles and their display. But what if we just *have* to take it all to *[la vida loca](http://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0ahUKEwjy1qScwL7KAhXEn4MKHdsPDYkQyCkIHjAA&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Dp47fEXGabaY&usg=AFQjCNFbvGoBKtwaRFzkpjgbZkOfNouBoQ)* territory? 
 
