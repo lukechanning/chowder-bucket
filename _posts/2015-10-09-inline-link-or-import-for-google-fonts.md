@@ -19,9 +19,9 @@ Today’s topic is so simple you’ve (likely) never thought about it that hard.
 
 Put on your over-thinking hats, because we’re about to dive into a deep, dark crevasse of knowledge! As it so happens, there is an answer:
 
-**Pretty much always, just use a link in your `<head></head>`.**
+> **Pretty much always, just use a link in your <head></head>.**
 
-## Here’s why an Inline Link is better for Google Fonts:
+### Here’s why an Inline Link is better for Google Fonts:
 
 As explained in detail by [Ilya Grigorik](http://stackoverflow.com/a/12380004), the differences are pretty negligible. Though, if we’re splitting hairs, an HTML link does the job a little better. It will load about as quickly: it can’t compete against an inline CSS compiler, but the difference is a potato, more or less. And you have the added benefit of universal compliance. 
 

@@ -23,7 +23,7 @@ Over the years, we’ve used a lot of WordPress testimonial plugins. Some were b
 
 Stupid Simple Testimonials is a lightweight, minimalistic approach to WordPress testimonials. It takes only three minutes to install and display, from activation to final touches. Likewise, it requires no additional editing or code knowledge to look _exactly_ like the box. We call it “no assembly required.”
 
-Best of all, you can charge this bad boy anywhere text is accepted. Just add the `[simple-testimonials]` shortcode where you want testimonials to magically appear. The rest is taken care of. Don’t even sweat it!
+Best of all, you can charge this bad boy anywhere text is accepted. Just add the ***[simple-testimonials]*** shortcode where you want testimonials to magically appear. The rest is taken care of. Don’t even sweat it!
 
 A short list of features includes: 
 

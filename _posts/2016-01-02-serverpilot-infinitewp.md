@@ -31,7 +31,7 @@ So let's get cracking! No time like the present, [after all. ](https://49.media.
 Thankfully, this isn't as hard as it sounds. In fact, ServerPilot makes most of it fairly easy on us. To get rolling, start by: 
 
 1. **Creating a New App** within your ServerPilot dashboard. You can put this app on any server you like, though I'd suggest keeping it away from a heavy-loaded production grid. It's not likely IWP will get hacked, but you'd rather not have all your eggs in one basket.
-2. **Pick a Domain** for your app, and make sure it's where you want IWP to go. The [installation docs](https://infinitewp.com/docs/how-to-install-the-infinitewp-admin-panel/) suggest using `http://yourdomain.com/iwp`, but that's pretty arbitrary. As long as the files end up in your root, you can also do something like `http://iwp.yourdomain.com` and it'll work out fine. Just make sure the DNS for your domain is correct, and you'll be fine.
+2. **Pick a Domain** for your app, and make sure it's where you want IWP to go. The [installation docs](https://infinitewp.com/docs/how-to-install-the-infinitewp-admin-panel/) suggest using **http://yourdomain.com/iwp**, but that's pretty arbitrary. As long as the files end up in your root, you can also do something like **http://iwp.yourdomain.com** and it'll work out fine. Just make sure the DNS for your domain is correct, and you'll be fine.
 3. **Get Happy with the FTP** now that your app is created. Just open the zip [provided by IWP](https://infinitewp.com/installing-options/) and plop the whole contents into your app's public folder. Bam! 
 4. **Setup a Database for IWP** if you haven't already done so. You can do this just like you would for any other app. Go to the ServerPilot dashboard, click on the app, select *Databases* and add one for our IWP. Make sure to give it a strong password, just in case. Be sure to save the DB name, as well as the MySQL username and password. We'll need them in a moment.
 5. **Visit the Domain You Setup** and follow the rest of the installation process as directed. It should be fairly straight-forward, and the default 3306 port should be fine. When prompted, enter the DB information from step 4. Also be sure to pick a username and password for IWP that is _unique_ -- if you're using one password and username combo for everything, I _will_ find you. 
@@ -47,15 +47,26 @@ At this point, you can use the [standard documentation](https://infinitewp.com/d
 
 InfiniteWP already does a ton for us, as far as making itself secure. However, we don't want to take any chances, and it's likely our file permissions have gotten a bit off during the transfer process. So, let's fix that really quick: 
 
-1. SSH into your ServerPilot app using whatever method you like best. Once there, we're going to run a few simple terminal commands to ensure our files and folders have the write `CHMOD` settings. 
-2. Start by setting file permissions to 644 for all the files recursively. From your root directory, run `find . -type f -print0 | xargs -0 chmod 0644 # for files`. This sets it so all our IWP files are read / write for permissioned users, while everyone else is stuck at read level. 
-3. Lastly, let's finish up my fixing the folders. Again, from the root directory run `find * -type d -print0 | xargs -0 chmod 0755 # for directories` to set all folders to read, write and execute, while globally we've only got read and execute.
+1. SSH into your ServerPilot app using whatever method you like best. Once there, we're going to run a few simple terminal commands to ensure our files and folders have the write **CHMOD** settings. 
+2. Start by setting file permissions to 644 for all the files recursively. From your root directory, run
+
+``` bash
+find . -type f -print0 | xargs -0 chmod 0644 # for files
+``` 
+This sets it so all our IWP files are read / write for permissioned users, while everyone else is stuck at read level. 
+
+3. Lastly, let's finish up my fixing the folders. Again, from the root directory run
+
+``` bash
+find * -type d -print0 | xargs -0 chmod 0755 # for directories
+```
+to set all folders to read, write and execute, while globally we've only got read and execute.
 
 #### Setup the CRON Job
 
 At this point, InfiniteWP will probably yell at you to setup the CRON job. Look for a red notification window in the top right. Hopefully, it'll also contain the relevant PHP code to complete this part of setup. If it's all working smoothly, you'll see something like this:
 
-```
+``` shell
 php -q -d safe_mode=Off /srv/users/serverpilot/apps/infinitewp/public/cron.php >/dev/null 2>&1
 ```
 

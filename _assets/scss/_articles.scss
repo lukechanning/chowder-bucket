@@ -15,4 +15,9 @@
       max-width: 65%;
     }
   }
+  // make sure our blockquotes look good
+  blockquote {
+    font-size: rem-calc(20);
+    font-weight: 600;
+  }
 }
