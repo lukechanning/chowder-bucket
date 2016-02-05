@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Convert a WordPress Database to UTF8
+title: Convert a WordPress Database to UTF-8
 subtitle: you've been very dirty, you naughty database
 fa-icon: database
 date:   2016-02-03 12:00:00
 permalink: convert-wordpress-database-utf8/
 category: web development
-desc: If your WordPress database has been corrupted with mixed encodings, here's how to convert the entire database to UTF8
+desc: If your WordPress database has been corrupted with mixed encodings, here's how to convert the entire database to UTF-8
 tags:
 - wordpress
 - php
@@ -14,13 +14,13 @@ tags:
 - databases
 ---
 
-We've had to convert a ton of corrupted WordPress databases. Because WordPress is an open platform, it doesn't take long before some plugin wanders in, plops a bunch of non-UTF8 crap into the database, then leaves us screwed. Stuck with a database that can't be imported, and one that can cause problems with site operations. 
+We've had to convert a ton of corrupted WordPress databases. Because WordPress is an open platform, it doesn't take long before some plugin wanders in, plops a bunch of non-UTF-8 crap into the database, then leaves us screwed. Stuck with a database that can't be imported, and one that can cause problems with site operations. 
 
-So if you need to convert a database -- specifically a WordPress DB, but realy any MySQL setup is applicable -- to UTF8, here's how to get the job done. 
+So if you need to convert a database -- specifically a WordPress DB, but really any MySQL setup is applicable -- to UTF-8, here's how to get the job done. 
 
 We've tried a lot of methods, and in _our_ experience, these are [the two that work](https://media.giphy.com/media/fVSSn8i8wJquY/giphy.gif):
 
-### Covert Database to UTF8 Using Search Replace DB
+### Covert Database to UTF-8 Using Search Replace DB
 
 It took us way too long to discover [Search Replace DB](https://interconnectit.com/products/search-and-replace-for-wordpress-databases/). It makes us [very sad](http://www.brenda-drake.com/wp-content/uploads/2014/12/V2.gif) to think of all the wasted hours spent moving WordPress sites the hard way. If you've never heard of the PHP script, let it into your heart today. You can thank us later. 
 
@@ -38,12 +38,12 @@ We're going to use that bad boy, and though it's pretty self-explanatory, here's
 
 Sadly, this method isn't full-proof. Converting your database's encoding is tricky, and you may need to go deeper down the rabbit hole. So if the EasyWayOut™ doesn't work, try this method:
 
-### Covert Database to UTF8 Using the Command Line
+### Covert Database to UTF-8 Using the Command Line
 
 We're going to have to use the command line from here. So put on those Sys Admin boots, and let's get rocking!
 
  1. SSH to your server with a user capable of accessing the database in question. 
- 2. Once you're there, enter the following line of code, replacing the information with your particulars. What we're doing here is dumping the database to the server, making sure to flag it with the encoding we want while skipping the charset entirely
+ 2. Once you're there, enter the following line of code, replacing the information with your particulars. What we're doing here is dumping the database to the server, making sure to flag it with the encoding we want while skipping the current set statements entirely
  
         mysqldump -u username -p --default-character-set=latin1 --skip-set-charset dbname > dbname_dump.sql
 
@@ -51,9 +51,10 @@ We're going to have to use the command line from here. So put on those Sys Admin
 
         # only if it's needed
         cd location_of_database_dump 
+        # this is definitely needed, so definitely do it
         sed -i -e 's/latin1/utf8/g' dump.sql > dump_utf.sql
 
- 4. This blasts through the database, replacing the necessary encodings with utf8. We're almost done! Now we just need to pull the converted database back into our original MySQL server. To do that, let's drop the original database. Obviously, please have backups ready. 
+ 4. This blasts through the database, replacing the necessary encodings with UTF-8. We're almost done! Now we just need to pull the converted database back into our original MySQL server. To do that, let's drop the original database. Obviously, please have backups ready. 
 
         mysql -u username -p --execute="DROP DATABASE dbname; CREATE DATABASE dbname CHARACTER SET utf8 COLLATE utf8_general_ci;"
 
