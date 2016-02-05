@@ -3,6 +3,7 @@ layout: post
 title: Chromebook for Web Development
 subtitle: how i shacked up with Chrome OS for a month
 fa-icon: laptop
+author: luke patrick
 date:   2016-01-20 12:00:00
 permalink: chromebook-for-web-development/
 category: web development

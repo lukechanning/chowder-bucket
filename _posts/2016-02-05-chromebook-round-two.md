@@ -3,6 +3,7 @@ layout: post
 title: A Second Chance for Chrome OS
 subtitle: replacing a macbook with a chromebook
 fa-icon: chrome
+author: luke patrick
 date:   2016-02-05 12:00:00
 permalink: chromebook-replacing-macbook/
 category: web development

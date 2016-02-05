@@ -6,6 +6,9 @@
         <h1 id="article-title">
             {{ page.title }}
         </h1>
+        {% if page.author %}
+            <p>by {{ page.author }}</p>
+        {% endif %}
         <hr>
         <div class="row">
             <h4 id="article-subtitle" class="small-10 small-centered columns">
