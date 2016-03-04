@@ -17,7 +17,7 @@ tags:
 
 Recently the company announced a return to its [much-loved free tier](https://www.nitrous.io/pricing/). All in all, it's about the best way possible for a newbie to play with some serious stack architecture. All completely for free, of course. 
 
-So, let's make the most of that free space and throw a [Game Boy](https://www.youtube.com/watch?v=8TI64McyYF4) emulator into the console! After all, what's all that RAM for, other than helping us catch Pokémon? 
+So, let's make the most of that free space and throw a [Game Boy](https://www.youtube.com/watch?v=8TI64McyYF4) emulator into the console! After all, what's all that RAM for, other than helping us catch [Pokémon](http://www.theverge.com/2016/3/3/11153216/pokemon-gif-anniversary-gameboy-nintendo-3ds)? 
 
 ![Amazing GIF of a Game Boy running inside the PHP console](/images/gifs/game-boy.gif)
 
@@ -26,7 +26,7 @@ So, let's make the most of that free space and throw a [Game Boy](https://www.yo
 Assuming you've signed-up for Nitrous.io and are staring at the dashboard, here's how to get rolling:  
 
 1. Make a box: not a difficult process, just add a new one, and then select the LAMP PHP stack. Or LEMP, really. We won't be using any of the back-end stuff, so feel free to go wherever you prefer. 
-2. Wait for the whole thing to boot up. While you're doing that, check out the Git repo for the excellent [PHP Terminal Gameboy Emulator](https://github.com/gabrielrcouto/php-terminal-gameboy-emulator). It's the tool from which all the magic springs. It is truly impressive stuff, and it pushes the PHP console to new heights. 
+2. Wait for the whole thing to boot up. While you're doing that, check out the Git repo for the excellent [PHP Terminal Gameboy Emulator](https://github.com/gabrielrcouto/php-terminal-gameboy-emulator) by Gabriel Couto. It's the tool from which all the magic springs. It is truly impressive stuff, and it pushes the PHP console to new heights. 
 3. We've got to get a little creative, since Nitrous.io doesn't like us using anything more than its default PHP 5.5.9. With that in mind, use the fork I've created of the original repo. Let's clone the custom repo I've made to the Nitrous code folder by adding:
 
 		git clone https://github.com/lukechanning/php-terminal-gameboy-emulator
