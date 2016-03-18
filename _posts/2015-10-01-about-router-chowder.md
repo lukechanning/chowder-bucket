@@ -50,7 +50,7 @@ Boulder, CO<br>
 New York, NY<br>
 <em>Web Dev / Chowder Batman</em>
 </p>
-<p>Nic is some kind of wizard — it's the only way to explain the <em>incredible</em> code she makes. Nic sneezes on New York subways regularly. Hopefully, this changes in the future. </p>
+<p>Nic is some kind of wizard — it's the only way to explain the <em>incredible</em> code she makes. Nic sneezes on the streets of Hong Kong regularly. Hopefully, this changes in the future. </p>
 </div>
 </div>
 

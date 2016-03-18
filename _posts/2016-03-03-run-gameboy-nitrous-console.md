@@ -4,7 +4,7 @@ title: Run a Game Boy on Nitrous.io Free Tier
 subtitle: using php and free memory to catch 'em all
 fa-icon: gamepad
 date:   2016-03-03 12:00:00
-permalink: php-gameboy-emulator-nitrous
+permalink: php-gameboy-emulator-nitrous/
 category: web development
 desc: PHP is a great way to code, but it can also be used to run a free Game Boy emulator on the Nitrous.io platform
 tags:
