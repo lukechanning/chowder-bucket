@@ -16,7 +16,7 @@ module.exports = function (grunt) {
                 command: 'jekyll serve --host $IP --port $PORT --baseurl ""'
             },
             jekyllDeploy: {
-                command: 'grunt && jekyll build && cd _site && rsync -rui . serverpilot@52.34.182.130:apps/mainblog/public/ && cd ~/workspace'
+                command: 'grunt && jekyll build && cd _site && rsync -rui . serverpilot@192.241.224.21:apps/routerchowder/public/ && cd ~/workspace'
             }
         },
 
