@@ -18,7 +18,7 @@ tags:
 
 I love *[Mad Men](https://en.wikipedia.org/wiki/Mad_Men)*. A long time ago, while binge-watching in my basement apartment, the show convinced me to leave a job as a writer and pursue one in marketing. It's like *Patch Adams* inspiring someone to be a doctor — but with a lot more nihilism. To this day, the show makes me laugh, cry and reflect. 
 
-But who cares about all that sappy stuff? It's time to ask ourselves the big questions. Like, "What if the characters in Mad Men were working in 2016?" 
+But who cares about all that sappy stuff? It's time to ask ourselves the big questions. Like, "What if the characters in *Mad Men* were working in 2016?" 
 
 > You guessed it: It's the Hypothetical of the week. What would it be like if our beloved Sterling & Cooper crew worked today, perhaps in the Bay Area? 
 
@@ -76,7 +76,7 @@ Anyone else not in those boxes? They can expect a wage gap [as much as 50%](http
 
 ## Office Life
 
-At first glance, you might think life in the modern office would be downright foreign to the Mad Men crew. But let's not forget one of the show's core messages: Fads are everything. And Sterling Cooper is all about fads. 
+At first glance, you might think life in the modern office would be downright foreign to the *Mad Men* crew. But let's not forget one of the show's core messages: Fads are everything. And Sterling Cooper is all about fads. 
 
 Sure, most hip companies today are using stand-up desks and open floor plans. But Don Draper's office is only an IKEA delivery from being there. In fact, a lot of the show's fashion would be "retro" by today's standards.
 
@@ -86,7 +86,7 @@ Sure, most hip companies today are using stand-up desks and open floor plans. Bu
 
 So what about everything else? Well, for starters Sterling Cooper would be [somewhere near Salesforce Tower](http://www.bizjournals.com/sanfrancisco/blog/real-estate/2015/04/startup-san-francisco-salesforce-trulia-talkdesk.html). And companies like Salesforce would get more mention than Secor Laxatives. In fact, the entire scope of advertising has changed considerably since the 1960s. 
 
-In the show, almost everything is done through the company: Creative work, ad placement, sales tracking, etc. But as shown by that Salesforce shout-out, this isn't the case any more. The Internet has completely unwoven the fabric of [bundled advertising](http://hbswk.hbs.edu/item/advertising-its-not-mad-men-anymore). Facebook and AdWords have replaced newspaper placements. Television ads are still around, but the nature of those is changing, too. Plus, Hulu and Netflix are making things even stranger for the Mad Men, creating new opportunities and new headaches. 
+In the show, almost everything is done through the company: Creative work, ad placement, sales tracking, etc. But as shown by that Salesforce shout-out, this isn't the case any more. The Internet has completely unwoven the fabric of [bundled advertising](http://hbswk.hbs.edu/item/advertising-its-not-mad-men-anymore). Facebook and AdWords have replaced newspaper placements. Television ads are still around, but the nature of those is changing, too. Plus, Hulu and Netflix are making things even stranger for the characters, creating new opportunities and new headaches. 
 
 > In short, the Web has made it all more direct. Companies now regularly have in-house marketing teams, in-part because everything is easily accessible. A Hulu rep can talk to you about ads. Facebook is almost too accesible. Even the tools we use to make graphics are simpler. Photoshop is a Creative Cloud login away. It's all right there, and that means fewer thousands spent at Sterling Cooper.
 
