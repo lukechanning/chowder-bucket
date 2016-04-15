@@ -20,7 +20,7 @@ I love *[Mad Men](https://en.wikipedia.org/wiki/Mad_Men)*. A long time ago, whil
 
 But who cares about all that sappy stuff? It's time to ask ourselves the big questions. Like, "What if the characters in *Mad Men* were working in 2016?" 
 
-> You guessed it: It's the Hypothetical of the week. What would it be like if our beloved Sterling & Cooper crew worked today, perhaps in the Bay Area? 
+> You guessed it: It's the Hypothetical of the week. What would it be like if our beloved Sterling Cooper crew worked today, perhaps in the Silicon Valley? 
 
 Thankfully, it's not that hard to get our maths in order. So for a detailed look at what the *Mad Men* office might be like, here's the rub: 
 
@@ -34,7 +34,7 @@ Don Draper, in the onset of the show, gets a raise from $35,000 to $45,000 a yea
 
 > [Adjusted for inflation](http://www.saving.org/inflation/inflation.php?amount=45,000&year=1960), Don would be making $362,028.06 in 2016. Not too shabby! It's not enough to afford his fancy [New York apartment](http://mentalfloss.com/article/62517/could-don-draper-actually-afford-his-upper-east-side-apartment-today), though. Is it enough to get a sweet pad in the Valley? 
 
-To Don's pleasure, it's looking plausible. With his annual salary (plus bonuses) he's fairing well against the terrible housing market. The average price of a home in the Valley is approximately $1 Million. With today's mortgage rates, ol' Dick Whitman [can afford roughly 150%](https://www.zillow.com/mortgage-calculator/house-affordability/) of that. Anything around $1.5 million is no sweat on his scotch-infused brow. 
+To Don's pleasure, it's looking plausible. With his annual salary (plus bonuses) he's fairing well against the terrible housing market. The average price of a home in the Valley is approximately $1 million. With today's mortgage rates, ol' Dick Whitman [can afford roughly 150%](https://www.zillow.com/mortgage-calculator/house-affordability/) of that. Anything around $1.5 million is no sweat on his scotch-infused brow. 
 
 He's also doing quite well compared to a modern counterpart: According to [Glassdoor](https://glassdoor.com), someone in his position could expect to make between $150,000 and $220,000. 
 
