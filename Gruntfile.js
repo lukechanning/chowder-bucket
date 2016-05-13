@@ -15,9 +15,6 @@ module.exports = function (grunt) {
             jekyllServe: {
                 command: 'jekyll serve --host $IP --port $PORT --baseurl ""'
             },
-            jekyllDeploy: {
-                command: 'grunt && jekyll build && cd _site && rsync -rui . serverpilot@192.241.224.21:apps/routerchowder/public/ && cd ~/workspace'
-            }
         },
 
         // sass (libsass) config
