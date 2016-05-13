@@ -38,7 +38,7 @@ To Don's pleasure, it's looking plausible. With his annual salary (plus bonuses)
 
 He's also doing quite well compared to a modern counterpart: According to [Glassdoor](https://glassdoor.com), someone in his position could expect to make between $150,000 and $220,000. 
 
-Sadly, inflation isn't as nice to the office heroines. Take Peggy Olsen for instance. Post-season one raise, she's making $40 a week, or $16,733. 
+Sadly, inflation isn't as nice to the office heroines. Take Peggy Olson for instance. Post-season one raise, she's making $40 a week, or $16,733. 
 
 **Chump. Change.**
 
@@ -81,7 +81,7 @@ At first glance, you might think life in the modern office would be downright fo
 Sure, most hip companies today are using stand-up desks and open floor plans. But Don Draper's office is only an IKEA delivery from being there. In fact, a lot of the show's fashion would be "retro" by today's standards.
 
 <div class="thumbnail float-right" markdown="1" style="max-width:450px;padding: 0 0 0 1rem;">
-![Peggy Olsen, the real hero of Mad Men, being a total badass](/images/gifs/peggy-badass.gif)
+![Peggy Olson, the real hero of Mad Men, being a total badass](/images/gifs/peggy-badass.gif)
 </div>
 
 So what about everything else? Well, for starters Sterling Cooper would be [somewhere near Salesforce Tower](http://www.bizjournals.com/sanfrancisco/blog/real-estate/2015/04/startup-san-francisco-salesforce-trulia-talkdesk.html). And companies like Salesforce would get more mention than Secor Laxatives. In fact, the entire scope of advertising has changed considerably since the 1960s. 
