@@ -36,6 +36,7 @@ And for most things you do, the Chromebook will be more than adequate. Plus, usi
 All in all, it was more doable than I thought. And barring a few major problems, you'll find the experience an exciting one. If you've been thinking about replacing your MacBook with a Chromebook, use the headings below to see if it's a good fit.
 
 &nbsp;
+___
 
 ### S*&% You Can Absolutely Replace
 
