@@ -23,7 +23,7 @@ module.exports = function (grunt) {
             options: { 
                 includePaths: [
                     '_components/foundation-sites/scss',
-                    '_components/owl-carousel2/src/scss',
+                    'node_modules/owl.carousel/src/scss',
                     //'_components/motion-ui/src'
                     ],
                 outputStyle: 'compressed',
@@ -41,7 +41,7 @@ module.exports = function (grunt) {
               files: {
                 'js/site.min.js': [
                     '_components/jquery/dist/jquery.min.js',
-                    '_components/owl-carousel2/dist/owl.carousel.min.js'
+                    'node_modules/owl.carousel/dist/owl.carousel.min.js'
                 ],
                 'js/custom.min.js' : [
                     '_assets/js/custom.js'

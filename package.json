@@ -17,6 +17,7 @@
     "grunt-sass": "^1.1.0",
     "grunt-shell": "^1.1.2",
     "load-grunt-tasks": "^3.4.0",
+    "owl.carousel": "^2.2.0",
     "pixrem": "^3.0.0",
     "time-grunt": "^1.3.0"
   }
