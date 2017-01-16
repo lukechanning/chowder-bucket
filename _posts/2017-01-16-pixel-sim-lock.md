@@ -3,10 +3,10 @@ layout: post
 title: Nexus & Pixel SIM Lock
 subtitle: fixing "the sim card has locked" issues
 fa-icon: android
-date:   2016-01-16 12:00:00
+date:   2017-01-16 12:00:00
 permalink: nexus-pixel-sim-lock/
 category: web development
-desc: If your Nexus or Google Pixel has SIM lock issues, there is a quick and easy fix to your problems. Save yourself a call to tech support and try this one-minute fix first. 
+desc: If your Nexus or Google Pixel has SIM lock issues there is a quick and easy fix to your problems. Save yourself a call to tech support and try this one-minute fix first. 
 tags:
 - android
 - mobile
