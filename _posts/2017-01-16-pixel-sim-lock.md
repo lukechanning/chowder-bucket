@@ -3,6 +3,7 @@ layout: post
 title: Nexus & Pixel SIM Lock
 subtitle: fixing "the sim card has locked" issues
 fa-icon: android
+author: luke patrick
 date:   2017-01-16 12:00:00
 permalink: nexus-pixel-sim-lock/
 category: web development
