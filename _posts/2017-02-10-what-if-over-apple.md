@@ -1,7 +1,7 @@
 ---
 layout: post
 title: What if You're Over Apple? 
-subtitle: what do when you're just done
+subtitle: what to do when you're just done
 fa-icon: apple
 author: luke patrick
 date:   2017-02-10 12:00:00
