@@ -14,6 +14,7 @@ tags:
 - os x
 - linux
 - open source
+- macbook
 ---
 
 A while back, I vowed to [give Chrome OS another go](http://routerchowder.com/chromebook-replacing-macbook/) as my primary work horse. There were a lot of reasons, most of which you can read about here. But to summarize, I love the fact that the OS puts all my stuff in the cloud. Plus, someone with a low budget can do most of my job with a sub 200 piece of hardware.

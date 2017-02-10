@@ -13,14 +13,16 @@ tags:
 - web development
 - os x
 - windows
+- macbook
 ---
 
-This week my beloved MacBook has to go into the shop. The computer I’ve owned for barely six months has to take a vacation with the Apple Geniuses. Why is pretty important. 
+This week my beloved MacBook has to go into the shop. The computer I’ve owned for barely six months has to take a vacation with the Apple Geniuses. Why is pretty important.
+
 I mainly took the computer in [because of this business](https://routerchowder.com/images/posts/fubar-lolz.png){:target="_blank"}. Clearly, something was going quite horribly wrong. Thankfully, only once or twice a week. Everything would continue to function normally, but the windows would black out, the screen would blitz, and eventually the computer would crash. It’s like my MacBook had too much to drink and was going to pass out. 
 
 I had some theories about this, and sadly, they were confirmed by the Apple Geniuses. Essentially, my m5 series Mac just isn’t rated to handle Photoshop or Illustrator. Mind you, I’m not talking about full-size billboard art here. We’re *only* looking at moderate Photoshop use and some slightly more intense Illustrator designs. 
 
-The tech told me the GPU is overheating, causing those systems to crash or error out. Looking at the logs, resets related to the graphics processor litter the sheet. Clearly, there’s a real problem here. 
+> The tech told me the GPU is overheating, causing those systems to crash or error out. Looking at the logs, resets related to the graphics processor litter the sheet. Clearly, there’s a real problem here. 
 
 My battery life is also beginning to suffer greatly. There’s a chance there’s a software problem at the root of this, but my habits have not changed since the purchase date. Still, I’m only getting around four or five hours of screen time, barely making it through an entire work day. Before, I could easily manage a full nine hours or more. 
 
@@ -30,7 +32,7 @@ Lastly, [my command key is worn out](https://routerchowder.com/images/posts/key-
 
 Thankfully, it’s all under warranty, and they’re replacing my worn-out command (and N key, of all things) tonight. Hopefully, they’ll also replace the battery if needed, though hardware tests revealed no obvious initial fault. 
 
-Either way, it’s all beginning to stack up. At some point, I really have to wonder: What if I’m just . . . *over *Apple? 
+Either way, it’s all beginning to stack up. At some point, I really have to wonder: What if I’m just . . . *over* Apple? 
 
 
 ---
@@ -52,7 +54,7 @@ Weirdly, you don’t even have to use the computer to have a bricked MacBook. I 
 
 All of this is physically understandable. Except for the fact that I paid almost $1,700 for this computer. That’s *used car*[ money](https://denver.craigslist.org/search/cta?sort=priceasc&min_price=1500&max_price=1700){:target="_blank"}. I even paid more for boosted performance. And lest we forget the thumb-crater, a worn-out key at five months in (with that pricetag) is utterly ridiculous. 
 
-But I can try to not put pressure on the keys, I suppose. 
+> But I can try to not put pressure on the keys, I suppose. 
 
 ### What if I Want to Stay in Apple Land?
 
@@ -90,7 +92,7 @@ A few months ago I built a gaming rig from scratch -- big thanks to [LinusTechTi
 
 As a diehard Mac OS fan . . . [what does that *mean*](http://giphy.com/gifs/film-4-david-lynch-TuayPMDJ5hA6k){:target="_blank"}? Furthermore, what does it mean that the machine I’ve come to love cost me only $500, even with a splurge on the graphics card?
 
-I’m not entirely sure. But as of today, I intend to find out. As the subheader suggests, **I bought a Windows ultraportable laptop. **My brand-new [Dell XPS 13](https://www.amazon.com/Dell-XPS9360-4841SLV-Laptop-Generation-Silver/dp/B01LQTXED8/ref=sr_1_2?s=pc&ie=UTF8&qid=1486710903&sr=1-2&keywords=dell%2Bxps%2B13&th=1){:target="_blank"} arrives at my doorstep today, just as my Mac is going into the shop. As one comes in, the other will be going out -- at least for now. 
+I’m not entirely sure. But as of today, I intend to find out. As the subheader suggests, **I bought a Windows ultraportable laptop.** My brand-new [Dell XPS 13](https://www.amazon.com/Dell-XPS9360-4841SLV-Laptop-Generation-Silver/dp/B01LQTXED8/ref=sr_1_2?s=pc&ie=UTF8&qid=1486710903&sr=1-2&keywords=dell%2Bxps%2B13&th=1){:target="_blank"} arrives at my doorstep today, just as my Mac is going into the shop. As one comes in, the other will be going out -- at least for now. 
 
 Based on reviews and specs, the XPS 13 is a good replacement for either a MacBook or a MacBook Pro. In fact, it boasts an [equivalent or better](https://browser.primatelabs.com/v4/cpu/search?utf8=%E2%9C%93&q=Dell+XPS+9360){:target="_blank"} GeekBench score [than both](https://browser.primatelabs.com/v4/cpu/search?utf8=%E2%9C%93&q=macbook+pro+13-inch+2016){:target="_blank"} of them. It also costs just under $1,000. However, I’m still full of questions and concerns: 
 
@@ -104,7 +106,7 @@ Based on reviews and specs, the XPS 13 is a good replacement for either a MacBoo
 
 I have no answers yet. But that’s the fun of our [hypothetical series](https://routerchowder.com/hypotheticals/){:target="_blank"}. Over the next couple of weeks, I’ll be trying to use the XPS 13 exclusively. Unlike the Chromebook test, I won’t allow myself to lapse back to the Mac, even after it’s been returned from the Genius Bar. This time, it’s all or nothing. 
 
-Given the current Apple climate, and the 2016 lineup in general, it’s time we had a definitive answer: **What if You Give up on Apple and Begin Anew in Windows? **
+> Given the current Apple climate, and the 2016 lineup in general, it’s time we had a definitive answer: **What if You Give up on Apple and Begin Anew in Windows?**
 
-In a couple of weeks, you can expect the answer right here! In the meantime, feel free to tweet us your own experiences. Have a MacBook you’re disappointed with? Did you buy one of the new 2016 Pros? Did you return it, too? Anybody [already made the swap to Windows](http://daverupert.com/2015/08/dave-is-going-windows/){:target="_blank"}? We’d love to hear about it!
+In a couple of weeks, you can expect the answer right here! In the meantime, feel free to [tweet](https://twitter.com/chowdermonsters)` us your own experiences. Have a MacBook you’re disappointed with? Did you buy one of the new 2016 Pros? Did you return it, too? Anybody [already made the swap to Windows](http://daverupert.com/2015/08/dave-is-going-windows/){:target="_blank"}? We’d love to hear about it!
 
