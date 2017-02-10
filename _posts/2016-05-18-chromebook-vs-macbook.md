@@ -6,7 +6,7 @@ fa-icon: bolt
 author: luke patrick
 date:   2016-05-18 12:00:00
 permalink: chromebook-vs-macbook/
-category: web development
+category: tech
 desc: We attempt to totally replace a MacBook with a Chromebook. The Devil is in the details, and our comparison is chock-full of details. 
 tags:
 - chromebook
