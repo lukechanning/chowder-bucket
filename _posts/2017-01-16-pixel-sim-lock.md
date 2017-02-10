@@ -13,7 +13,7 @@ tags:
 - mobile
 - tech tutorial
 - google
-- mobile development
+- smartphones
 ---
 
 Like a lot of people, I [finally got](http://www.investors.com/news/technology/google-pixel-sales-strong-at-verizon-delays-till-january/) my shiny new Pixel in the mail this week. It was everything I wanted and more: Smooth matte finish on the back, incredible camera with brilliant 4k video, superhero battery life, etc. If the phone were a human being, it’d definitely be my drinking buddy of choice. 
